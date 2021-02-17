@@ -1,0 +1,174 @@
+body{
+	background-color: black;
+	text-align: center;
+}
+nav{
+	background-color: white;
+	overflow: hidden;
+	position:-webkit-sticky;
+  	position:sticky;
+  	top:0px;
+  	z-index: 100;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	float: left;
+}
+li a:link{
+	display: block;
+	color: black;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	text-decoration: none;
+	font-family: montserrat;
+	font-size: 20px;
+}
+li a:visited{
+	color: black;
+}
+li a:hover{
+	background-color: black;
+	color: white;
+}
+li a:active{
+	font-size: 19px;
+}
+h1{
+	padding-bottom: 0px; 
+	font-size: 400%;
+	color: white; 
+	text-align: center;	
+	margin-left:75px;
+}
+em{
+	position: relative;
+	top: 40px;
+	right: 100px;
+	color: red;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-size: 300%;
+}
+.clearfix{
+	overflow: auto;
+}
+p{
+	color: white;
+	font-size: 150%;
+	font-family: product sans;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+video{
+	height: 400px;
+	margin: 30px;
+}
+.img1{
+	float: left;
+	margin: 5%;
+}
+.img2{
+	float: left;
+}
+.img3{
+	float: right;
+}
+.img2:hover{
+	height: 80px;
+	width: 100px;
+}
+.img2:active{
+	height: 70px;
+	width: 90px;
+}
+.img3:hover{
+	height: 80px;
+	width: 100px;
+}
+.img3:active{
+	height: 70px;
+	width: 90px;
+}
+.Sources{
+	text-align: center;
+	color: white;
+	font-family: sans serif;
+	text-align: center;
+	font-size: small;
+	padding-bottom: 10px;
+}
+a{
+	text-align: center;
+	font-size: 100%;
+	color: white;
+}
+footer{
+	font-size: 80%;
+	text-align: center;
+	clear: right;
+	color: black;
+	background-color: white;
+	padding: 20px;
+	overflow: auto;
+}
+.sprite {
+	background: url('../images/icon.png') no-repeat -20px -18px;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin: 5px;
+}
+.sprite:hover {
+	background: url('../images/icon.png') no-repeat -19px -164px;
+	width: 51px;
+	height: 50px;
+}
+.sprite:active {
+	background: url('../images/icon.png') no-repeat -20px -18px;
+	width: 50px;
+	height: 50px;
+}
+.sprite2 {
+	background: url('../images/icon.png') no-repeat -91px -18px;
+	width: 51px;
+	height: 50px;
+	float: right;
+	margin: 5px
+
+}
+.sprite2:hover {
+	background: url('../images/icon.png') no-repeat -91px -164px;
+	width: 50px;
+	height: 50px;
+}
+.sprite2:active {
+	background: url('../images/icon.png') no-repeat -91px -18px;
+	width: 51px;
+	height: 50px;
+}
+.sprite3 {
+	background: url('../images/icon.png') no-repeat -590px -18px;
+	width: 51px;
+	height: 50px;
+	float: right;
+	margin: 5px
+}
+.sprite3:hover {
+	background: url('../images/icon.png') no-repeat -591px -164px;
+	width: 50px;
+	height: 50px;
+}
+.sprite3:active {
+	background: url('../images/icon.png') no-repeat -590px -18px;
+	width: 51px;
+	height: 50px;
+}

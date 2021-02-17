@@ -1,0 +1,112 @@
+body{
+	background-color: black;
+}
+ul{
+	list-style-type: none;
+
+	font-size: 30px;
+	margin-left: 55%;
+	font-family: montserrat;
+	position: absolute;
+	text-align: center;
+	padding-left:20px;
+	width: 500px;
+
+}
+li a:link{
+	display: block;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+li a:visited{
+	color: red;
+}
+li a:hover{
+	color: red;
+	font-size: 33px;
+}
+li a:active{
+	font-size: 30px;
+}
+#home{
+	float: left;
+	overflow: auto; 
+
+}
+h1{
+	padding-bottom: 0px; 
+	font-size: 400%;
+	color: white; 
+	
+}
+em{
+	position: relative;
+	top: 40px;
+	right: 100px;
+	color: red;
+}
+footer {
+	overflow:hidden;
+	position: relative;
+	left: ;
+	top: 118%;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding-top:20px;
+}
+.sprite {
+	background: url('../images/icon.png') no-repeat -20px -18px;
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin: 5px;
+}
+.sprite:hover {
+	background: url('../images/icon.png') no-repeat -19px -164px;
+	width: 51px;
+	height: 50px;
+}
+.sprite:active {
+	background: url('../images/icon.png') no-repeat -20px -18px;
+	width: 50px;
+	height: 50px;
+}
+.sprite2 {
+	background: url('../images/icon.png') no-repeat -91px -18px;
+	width: 51px;
+	height: 50px;
+	float: right;
+	margin: 5px
+
+}
+.sprite2:hover {
+	background: url('../images/icon.png') no-repeat -91px -164px;
+	width: 50px;
+	height: 50px;
+}
+.sprite2:active {
+	background: url('../images/icon.png') no-repeat -91px -18px;
+	width: 51px;
+	height: 50px;
+}
+.sprite3 {
+	background: url('../images/icon.png') no-repeat -590px -18px;
+	width: 51px;
+	height: 50px;
+	float: right;
+	margin: 5px
+}
+.sprite3:hover {
+	background: url('../images/icon.png') no-repeat -591px -164px;
+	width: 50px;
+	height: 50px;
+}
+.sprite3:active {
+	background: url('../images/icon.png') no-repeat -590px -18px;
+	width: 51px;
+	height: 50px;
+}
